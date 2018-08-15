@@ -96,6 +96,8 @@ public class WedDriCla {
         
         driver.findElement(By.xpath("//div[.='Logout']")).click();
         
+        driver.close();
+        
         
 	}
 	
